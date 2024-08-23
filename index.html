@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansa Musa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="photos/MANSA MUSA.png" alt="Logo" class="logo">
+        <div class="header-right">
+            <div class="social-media">
+                <a href="https://twitter.com/yourprofile" target="_blank">X (Twitter)</a>
+                <a href="https://t.me/yourprofile" target="_blank">Telegram</a>
+            </div>
+            <div class="buy-now-box no-fill">
+                <button class="buy-now" onclick="window.location.href='https://yourcoinwebsite.com/newpage'">Buy Now</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- New Copyable Text Section -->
+    <section class="copyable-text">
+        <p id="copyable-text">This is the text you can copy!</p>
+        <button class="copy-button" onclick="copyText()">Copy</button>
+    </section>
+
+    <!-- Main Section -->
+    <section class="main">
+        <div class="main-text">
+            <h1>Mansa Musa Coin 🌕</h1>
+            <p>Get ready to flex that digital wealth because Mansa Musa Coin is here to make your portfolio richer than Mansa Musa himself—well, almost! Inspired by the wealthiest man in history, this memecoin is your golden ticket to the moon (and maybe a few palaces along the way). Whether you're a crypto king or just rolling for the memes, Mansa Musa Coin is all about stacking those virtual riches while we laugh our way to the moon. Because let’s be honest, if Mansa Musa were around today, he'd definitely be into crypto—and so should you. Hop on the camel, we're moon-bound, baby!</p>
+            <button class="buy-now filled" onclick="window.location.href='https://yourcoinwebsite.com/newpage'">Buy Now</button>
+        </div>
+        <div class="main-photo">
+            <img src="photos/mansa and mansa.png" alt="Main Photo" height="400">
+        </div>
+    </section>
+
+    <!-- I AM MANSA MUSA Section -->
+    <section class="highlighted-text">
+        <h2><span class="highlight">I AM MANSA MUSA</span> Embrace the legendary wealth of history’s richest man. You’re not just holding memecoin—you’re holding power. To the moon! 🌕</h2>
+    </section>
+
+    <!-- Four Boxes Section -->
+    <section class="four-boxes">
+        <div class="box" style="background-color: #F3F3F3;">
+            <div class="box-text">
+                <span class="highlight highlight-yellow">I AM The Richest</span>
+                <span class="highlight highlight-yellow">In History</span>
+            </div>
+            <div class="box-photo">
+                <img src="photos/mansa and the gold.png" alt="Box Photo 1" class="resizable-img">
+            </div>
+        </div>
+        <div class="box" style="background-color: #F0E423;">
+            <div class="box-text">
+                <span class="highlight highlight-gray">The Moon</span>
+                <span class="highlight highlight-gray">Is Our Destination</span>
+            </div>
+            <div class="box-photo">
+                <img src="photos/mansa and the moon.png" alt="Box Photo 2" class="resizable-img">
+            </div>
+        </div>
+        <div class="box" style="background-color: #F0E423;">
+            <div class="box-text">
+                <span class="highlight highlight-gray">Who is</span>
+                <span class="highlight highlight-gray">Elon Musk!</span>
+            </div>
+            <div class="box-photo">
+                <img src="photos/elon musk.png" alt="Box Photo 3" class="resizable-img">
+            </div>
+        </div>
+        <div class="box" style="background-color: #F3F3F3;">
+            <div class="box-text">
+                <span class="highlight highlight-yellow">We Love</span>
+                <span class="highlight highlight-yellow">Solana❤️</span>
+            </div>
+            <div class="box-photo">
+                <img src="photos/mansa and sol.png" alt="Box Photo 4" class="resizable-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Big Photo Section -->
+    <section class="big-photo">
+        <img src="photos/mansa and the boys.png" alt="Big Photo">
+    </section>
+
+    <!-- Let's Go To The Moon Section -->
+    <section class="moon-section">
+        <h2>Let's Go To The Mooooon 🌕</h2>
+        <button class="buy-now filled" onclick="window.location.href='https://yourcoinwebsite.com/newpage'">Buy Now</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="photos/MANSA MUSA footer png.png" alt="Logo" class="footer-logo">
+            <div class="footer-social">
+                <a href="https://twitter.com/yourprofile" target="_blank">X (Twitter)</a>
+                <a href="https://t.me/yourprofile" target="_blank">Telegram</a>
+            </div>
+        </div>
+        <hr>
+        <p>© 2024 Mansa Musa. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function copyText() {
+            const text = document.getElementById('copyable-text').innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Text copied to clipboard!');
+            });
+        }
+    </script>
+</body>
+</html>

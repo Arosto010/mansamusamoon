@@ -1,0 +1,281 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E3DEB6;
+    color: #2D2729;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1241px;
+    margin: 0 auto;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.social-media {
+    margin-right: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2D2729;
+}
+
+.buy-now-box {
+    padding: 10px;
+}
+
+/* Button Style */
+.buy-now {
+    background-color: #2D2729;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 155px; /* Updated width */
+    height: 68px; /* Updated height */
+}
+
+.buy-now.filled {
+    background-color: #2D2729;
+    color: white;
+}
+
+.buy-now:hover {
+    background-color: #1F1C1D; /* Add this line */
+    color: white;
+}
+
+.buy-now-box.no-fill .buy-now:hover {
+    background-color: #1F1C1D;
+    color: white;
+}
+
+/* Main Section */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1241px;
+    margin: 0 auto;
+}
+
+.main-photo img {
+    max-width: 100%;
+    border-radius: 14px;
+}
+
+.main-text {
+    max-width: 50%;
+    order: 1;
+}
+
+.main-photo {
+    order: 2;
+}
+
+/* Copyable Text Section */
+.copyable-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+/* Copy Button Style */
+.copy-button {
+    background-color: #2D2729;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.copy-button:hover {
+    background-color: #1F1C1D;
+}
+
+/* Copyable Text Paragraph */
+#copyable-text {
+    color: #2D2729;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Highlighted Text Section */
+.highlighted-text {
+    text-align: center; /* Center the text within the section */
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 1241px;
+    margin: 0 auto; /* Ensure it is centered */
+}
+
+.highlighted-text h2 {
+    display: inline-block; /* Allow the h2 to be centered */
+}
+
+.highlight {
+    display: inline-block;
+    padding: 5px 10px; /* Add padding for better visibility */
+    border-radius: 5px;
+    background-color: #F0E423; /* Highlight background color */
+}
+
+.highlight-yellow {
+    background-color: #F0E423; /* Highlight color */
+}
+
+/* Four Boxes Section */
+.four-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    gap: 30px;
+    justify-content: center;
+    padding: 50px;
+    max-width: 1241px;
+    margin: 0 auto;
+}
+
+.box {
+    height: 260px;
+    padding: 20px;
+    border-radius: 45px;
+    border: 2px solid #2D2729;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* Remove gap between highlighted texts */
+    font-size: 30px; /* Increased font size */
+    font-weight: Medium; /* Increased font weight */
+}
+
+.box-text .highlight {
+    margin-bottom: 0px; /* Adjust this value to remove space between lines */
+}
+
+.box-photo {
+    max-width: 150px; /* Increased width */
+    margin-left: 20px;
+    flex-shrink: 1;
+}
+
+.box-photo img {
+    max-width: 100%; /* Adjust size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* New class for resizing images */
+.resizable-img {
+    width: 150px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.highlight {
+    display: inline-block;
+    padding: 0 2px;
+    border-radius: 5px;
+}
+
+.highlight-yellow {
+    background-color: #F0E423;
+}
+
+.highlight-white {
+    background-color: #FFFFFF;
+}
+
+.highlight-gray {
+    background-color: #F3F3F3;
+}
+
+/* Big Photo Section */
+.big-photo {
+    text-align: center;
+    margin: 50px auto; /* Center the section */
+    max-width: 1241px; /* Match the width of the footer */
+    border-radius: 45px; /* Add rounded corners */
+}
+
+.big-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 45px; /* Ensure the image also has rounded corners */
+}
+
+/* Let's Go To The Moon Section */
+.moon-section {
+    text-align: center;
+    padding: 50px;
+    max-width: 1241px;
+    margin: 0 auto;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #2D2729;
+    color: #FFFFFF;
+    width: 1241px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 45px 45px 0 0;
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto;
+    text-align: left;
+    float: left;
+}
+
+.footer-social {
+    text-align: right;
+    float: right;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer hr {
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+    clear: both;
+}
